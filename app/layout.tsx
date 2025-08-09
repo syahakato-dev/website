@@ -5,19 +5,8 @@ import { LayoutProps } from "@type/layout";
 
 export const metadata: Metadata = {
   title: "SYAHAKATO",
-  description: "Official Website of SYAHAKATO",
-  icons: [
-    {
-      rel: "icon",
-      url: "/favicon-dark.svg",
-      media: "(prefers-color-scheme: dark)",
-    },
-    {
-      rel: "icon",
-      url: "/favicon-light.svg",
-      media: "(prefers-color-scheme: dark)",
-    },
-  ],
+  description:
+    "Official Website of SYAHAKATO, Get an idea, evaluate it, develop it, go back to sleep.",
 };
 
 const RootLayout: LayoutProps = ({ children }) => {
